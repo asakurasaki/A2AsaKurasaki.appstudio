@@ -15,6 +15,7 @@ if (temp < 32 && state == 'NE')
 else if (temp >= 32 && temp <= 50 && state == 'NE')
   console.log(messages[1])
 else if (temp >= 32 && temp <= 50 && state == 'FL')
+  console.log(messages[2])
 else if (temp > 50 && temp <= 70 && state == 'FL')
   console.log(messages[3])
 else
